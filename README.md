@@ -5,7 +5,6 @@ Aplicação desenvolvida para a disciplina de Processamento e Análise de Imagen
 
 O projeto combina processamento de imagens, machine learning e deep learning para investigar a relação entre a morfologia ventricular e o quadro clínico dos pacientes.
 
----
 ## Objetivos
 
 * Segmentar automaticamente os ventrículos laterais em imagens axiais do dataset OASIS-2.
@@ -15,7 +14,7 @@ O projeto combina processamento de imagens, machine learning e deep learning par
 * Avaliar modelos rasos (Regressão Linear, XGBoost) para classificação e regressão.
 
 * Treinar modelos profundos baseados na EfficientNet-B0 para análise direta das imagens.
----
+
 ## Metodologia Resumida
 ### Segmentação
 
@@ -40,14 +39,13 @@ O projeto combina processamento de imagens, machine learning e deep learning par
 * XGBoost para regressão de idade.
 
 * EfficientNet-B0 com fine-tuning parcial para classificação e regressão.
----
+
 ## Principais Resultados
 
 * Os modelos rasos apresentaram baixo desempenho, indicando que descritores isolados dos ventrículos não são suficientes para o diagnóstico.
 * A EfficientNet apresentou overfitting acentuado, consequência direta do número reduzido de pacientes disponíveis.
 * Na regressão de idade, a rede convergiu para a média do conjunto, típico de cenários com pouca variabilidade amostral.
 
----
 ## Conclusões
 
 Mesmo com um pipeline sólido e arquiteturas modernas, a limitação crítica foi o tamanho reduzido da base quando dividida rigorosamente por paciente — condição essencial para evitar data leakage em neuroimagem.
