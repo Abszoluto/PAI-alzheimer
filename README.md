@@ -49,5 +49,5 @@ O projeto combina processamento de imagens, machine learning e deep learning par
 
 ## Conclusões
 
-Mesmo com um pipeline sólido e arquiteturas modernas, a limitação crítica foi o tamanho reduzido da base quando dividida rigorosamente por paciente — condição essencial para evitar data leakage em neuroimagem.
+Mesmo com um pipeline sólido e arquiteturas modernas, a limitação crítica foi o tamanho reduzido da base quando dividida rigorosamente por paciente(condição essencial para evitar data leakage em neuroimagem).
 O estudo confirma a necessidade de datasets maiores e mais variados para que modelos profundos generalizem adequadamente em aplicações clínicas.
