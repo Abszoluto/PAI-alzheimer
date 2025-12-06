@@ -1,0 +1,12 @@
+matplotlib
+seaborn
+PySide6
+numpy
+nibabel
+Pillow
+pandas
+joblib
+scikit-image
+scipy
+scikit-learn
+tensorflow
