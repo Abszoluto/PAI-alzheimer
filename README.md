@@ -1,4 +1,5 @@
 # Segmentação de Ventrículos e Análise de Alzheimer com RM
+## Visal geral
 **O artigo completo relatando o desenvolvimento do trabalho está no repositório com o nome de "PAI_Trabalho.pdf"**
 
 Aplicação desenvolvida para a disciplina de Processamento e Análise de Imagens, focada na extração automática de estruturas cerebrais em exames de ressonância magnética e na avaliação de possíveis marcadores associados à Doença de Alzheimer.
